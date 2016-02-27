@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <ImageView 
+        android:id="@+id/other_tianqi"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp" />
+    
+    <TextView
+        android:id="@+id/other_wendu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/other_tianqi"
+        android:layout_toRightOf="@id/other_tianqi"
+        android:layout_marginLeft="30dp"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+    
+    <TextView 
+        android:id="@+id/other_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/other_wendu"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textColor="#FFFFFF" />
+    
+    <TextView 
+        android:id="@+id/other_fengli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/other_date"
+        android:layout_alignLeft="@id/other_wendu"
+        android:layout_marginLeft="60dp"
+        android:textColor="#FFFFFF" />
+    
+    <TextView
+        android:id="@+id/other_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/other_tianqi"
+        android:layout_alignTop="@id/other_fengli"
+        android:textColor="#FFFFFF" />
+    
+
+</RelativeLayout>
